@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "img": "/img/washes/1.png",
+    "name": "LG 5kG",
+    "price": 350,
+    "catetory":"washes"
+  },
+  {
+    "id": 7,
+    "img": "/img/mobile/8.png",
+    "name": "Canon EOS RP Mirrorless Camera",
+    "price": 530,
+    "catetory":"mobile"
+  },
+  
+  
+  {
+    "id": 3,
+    "img": "/img/washes/4.png",
+    "name": "fresh 20 KG",
+    "price": 530,
+    "catetory":"washes"
+  },
+  {
+    "id": 4,
+    "img": "/img/mobile/5.png",
+    "name": "SAMSUNG 55 Inch UHD 4K Smart TV With Receiver",
+    "price": 350,
+    "catetory":"mobile"
+  },
+  {
+    "id": 11,
+    "img": "img/other/12.png",
+    "name": "Kenstar Ester ABS Plastic 750W Mixer Grinder",
+    "price": 280,
+    "catetory":"appliances"
+  },
+  {
+    "id": 5,
+    "img": "/img/mobile/6.png",
+    "name": "Redmi 13C Dual SIM with 6GB RAM",
+    "price": 280,
+    "catetory":"mobile"
+  },
+  {
+    "id": 6,
+    "img": "/img/mobile/7.png",
+    "name": "Dell Laptop Latitude 5530 Core i7-1255U 8GB SSD",
+    "price": 400,
+    "catetory":"mobile"
+  },
+  
+  {
+    "id": 8,
+    "img": "/img/other/9.png",
+    "name": "Sharp 42 Lt Electronic Oven Convection",
+    "price": 400,
+    "catetory":"appliances"
+  },
+  {
+    "id": 9,
+    "img": "/img/other/10.png",
+    "name": "Sencor STS 5070SS Electric Toaster for Four Slices",
+    "price": 340,
+    "catetory":"appliances"
+  },
+  {
+    "id": 10,
+    "img": "/img/other/11.png",
+    "name": "Fuzzy Logic Rice Cooker DIGITAL-JAR 1.8L 940W – HD4515/67",
+    "price": 490,
+    "catetory":"appliances"
+  },
+  {
+    "id": 2,
+    "img": "/img/washes/3.png",
+    "name": "fresh 10 KG",
+    "price": 400,
+    "catetory":"washes"
+  },
+  {
+    "id": 1,
+    "img": "/img/washes/2.png",
+    "name": "LG 10KG",
+    "price": 280,
+    "catetory":"washes"
+  }
+]

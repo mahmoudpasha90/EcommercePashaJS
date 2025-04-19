@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="./styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <header id="home">
+        <div class="navbar">
+          <nav>
+            <a href="#home" id="logo">Electrical Appliances</a>
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="payment.html">Payment</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="cart-container">
+        <h2 class="cart-title">Your Cart</h2>
+    
+        <div class="cart-content" id="cart-content">
+            <aside class="cart-summary">
+                <h2>Order Summary</h2>
+                <p>Total Items: <span id="total-items">0</span></p>
+                <p>Total Price: $<span id="total-price">0.00</span></p>
+                <p>Tax (10%): $<span id="tax">0.00</span></p>
+                <p><strong>Grand Total: $<span id="grand-total">0.00</span></strong></p>
+                <button class="checkout-btn"  id="gotopayment" >Proceed to Checkout</button>
+            </aside>
+    
+            <section class="cart-items">
+                <div class="cart-grid" id="cart-grid"></div>
+            </section>
+        </div>
+    </div>
+        <footer id="footer" >
+            <div class="foot cart1">
+              <h2>Contact Us</h2>
+              <hr>
+              <div class="contact">
+                  <div class="col-1">
+                      <h3><span class="text-primary"> Appliances </span> Electrical </h3>
+                  </div>
+                  <div class="col-2">
+                      <p><b>Phone Number:01023286629</b></p>
+                      <p><b>Email:</b> Contct@mail.com</p>
+                      <p><b>Place:</b>Elmehalla Gharbia</p>
+                  </div>
+                  <div class="social">
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="back">
+                  <a href="#cart"><i class="fa-solid fa-house"></i></a>
+              </div>
+          </div>
+            </div>
+          </footer>
+      <script src="cartn.js"></script> 
+
+
+</body>
+</html>
