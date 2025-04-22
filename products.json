@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "img": "/img/washes/1.png",
+    "img": "./img/washes/1.png",
     "name": "LG 5kG",
     "price": 350,
     "catetory":"washes"
