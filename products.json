@@ -8,7 +8,7 @@
   },
   {
     "id": 7,
-    "img": "/img/mobile/8.png",
+    "img": "./img/mobile/8.png",
     "name": "Canon EOS RP Mirrorless Camera",
     "price": 530,
     "catetory":"mobile"
@@ -17,28 +17,28 @@
   
   {
     "id": 3,
-    "img": "/img/washes/4.png",
+    "img": "./img/washes/4.png",
     "name": "fresh 20 KG",
     "price": 530,
     "catetory":"washes"
   },
   {
     "id": 4,
-    "img": "/img/mobile/5.png",
+    "img": "./img/mobile/5.png",
     "name": "SAMSUNG 55 Inch UHD 4K Smart TV With Receiver",
     "price": 350,
     "catetory":"mobile"
   },
   {
     "id": 11,
-    "img": "img/other/12.png",
+    "img": "./img/other/12.png",
     "name": "Kenstar Ester ABS Plastic 750W Mixer Grinder",
     "price": 280,
     "catetory":"appliances"
   },
   {
     "id": 5,
-    "img": "/img/mobile/6.png",
+    "img": "./img/mobile/6.png",
     "name": "Redmi 13C Dual SIM with 6GB RAM",
     "price": 280,
     "catetory":"mobile"
