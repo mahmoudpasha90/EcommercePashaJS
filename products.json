@@ -45,7 +45,7 @@
   },
   {
     "id": 6,
-    "img": "img/mobile/7.png",
+    "img": "./img/mobile/7.png",
     "name": "Dell Laptop Latitude 5530 Core i7-1255U 8GB SSD",
     "price": 400,
     "catetory":"mobile"
