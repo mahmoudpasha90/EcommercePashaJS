@@ -74,7 +74,7 @@
   },
   {
     "id": 2,
-    "img": "./img/washes/3.png",
+    "img": "img/washes/3.png",
     "name": "fresh 10 KG",
     "price": 400,
     "catetory":"washes"
