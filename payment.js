@@ -1,13 +1,11 @@
 const submitButton = document.getElementById("sumb");
 
 submitButton.addEventListener('click', event => {
-    event.preventDefault(); // Optional: Prevent form from refreshing the page
-
+    event.preventDefault();
     const firstName = document.getElementById("fname").value;
     const lastName = document.getElementById("lname").value;
     const telephone = document.getElementById("Telephone").value;
     const address = document.getElementById("Address").value;
-
     const today = new Date();
     const deliveryDate = new Date(today.setDate(today.getDate() + 5));
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
