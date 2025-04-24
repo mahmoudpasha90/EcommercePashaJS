@@ -1,3 +1,4 @@
+
 let slideIndex = 0;
 showSlides();
 
@@ -71,16 +72,23 @@ fetch('products.json')
       });
     }
   });
+  
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
+function updateCartCount() {
+  document.getElementById("cart-count").textContent = cart.length;
+}
 function addToCart(product) {
   const existingProduct = cart.find(item => item.id === product.id);
   if (existingProduct) {
     existingProduct.quantity++;
   } else {
     cart.push(product);
+    updateCartCount();
   }
   localStorage.setItem('cart', JSON.stringify(cart));
   alert("Added to cart!");
+ 
 }
+
+ 

@@ -8,9 +8,11 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background: #fff4f4;   
-  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;  
+  box-sizing: border-box; 
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
 }
 
 * {
@@ -23,7 +25,9 @@ body {
 h1,
 h2 {
   font-family: "Saira", sans-serif;
+  font-weight: 700;
 }
+
 
 ul {
   list-style: none;
@@ -35,25 +39,21 @@ a {
 
 h3 {
   font-family: "Saira", sans-serif;
-  font-weight: 900;
-  color: #c920b3;
+  font-weight: 700;
+    color: #ffffff;
 }
 
 #home #logo {
-  color: #033b4a;
+  color: #4a4903;
   font-size: 30Px;
   font-weight: bolder;
 }
-
 header .navbar {
   position: relative;
   width: 100%;
-  background:#9dbaafcb;
-
+  background: linear-gradient(45deg, rgb(226 222 222), rgb(233 233 244 / 87%));
   z-index: 1000;
-
 }
-
 header .navbar nav {
   display: flex;
   margin: auto;
@@ -70,6 +70,20 @@ header ul {
   align-items: center;
   gap: 15px;
   font-weight: 900;
+}
+#cart-icon {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  color: #033b4a;
+}
+#cart-count {
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
 }
 .text-primary {
   color: #20c997;
@@ -106,7 +120,6 @@ header ul {
   text-align: center;
   color: #033b4a;
   letter-spacing: 1px;
-  font-weight: 600;
   font-size: 40px;
 }
 
@@ -141,7 +154,7 @@ header ul {
 }
 
 #product1 .button:hover {
-  background-color: #d961ed;
+  background-color: #efebf0;
 }
 
 #product1 {
@@ -197,7 +210,7 @@ header ul {
 
 #product1 .star i {
   width: 10%;
-  color: #d961ed;
+  color: #d3ed61;
   margin-bottom: 2px;
 }
 
@@ -207,7 +220,7 @@ header ul {
   border-radius: 70px;
   background-color: #3e3e41;
   font-weight: bold;
-  color: #c920b3;
+  color: #ddd4dc;
   margin-top: 5px;
   border: 1px solid #d1d1e6;
   position: absolute;
@@ -216,14 +229,14 @@ header ul {
 }
 
 #product1 .pro .cart:hover {
-  color: #1414a5;
+  color: #cbda44;
 }
 #product1 .pro i {
   padding: 10px;
 }
 
 #product1 .discription span {
-  color: red;
+  color: rgb(0, 217, 255);
   font-weight: 900;
 
 }
@@ -555,5 +568,14 @@ bottom: 0;
   .cart-item {
       grid-template-columns: 1fr;
       text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .product-title {
+    font-size: 1rem;
   }
 }
