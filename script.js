@@ -22,7 +22,6 @@ fetch('products.json')
     const mobileBtn = document.getElementById("mobile");
     const otherBtn = document.getElementById("other");
     const allBtn = document.getElementById("all");
-
     function displayProducts(filtered) {
       item.innerHTML = "";
       filtered.forEach(product => {
